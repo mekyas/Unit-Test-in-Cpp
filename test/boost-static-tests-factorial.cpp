@@ -1,6 +1,6 @@
 #define BOOST_TEST_MODULE factorial static test
 #include <boost/test/unit_test.hpp>
-#include "factorial.cpp"
+#include "../factorial.cpp"
 
 BOOST_AUTO_TEST_CASE(Factorials_for_zero) {
     BOOST_TEST( Factorial(0) == 1 );

@@ -1,5 +1,5 @@
 #include "catch.hpp"
-#include "factorial.cpp"
+#include "../factorial.cpp"
 
 
 TEST_CASE( "Factorials for zero", "[factorial]" ) {
